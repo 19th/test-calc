@@ -14,6 +14,4 @@ Ieiet termināli un atvert direktoriju ar testiem.
 ```cd calories_burned```
 
 Un  
-```python3 -m unittest```  
-vai  
-```python -m unittest```  
+```pytest```
