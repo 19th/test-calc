@@ -1,6 +1,6 @@
 def calculate_bmi(weight_kg, height_m):
     bmi = weight_kg / (height_m ** 2)
-    return bmi
+    return round(bmi, 2)
 
 def interpret_bmi(bmi):
     if bmi < 18.5:

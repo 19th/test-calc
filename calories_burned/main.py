@@ -1,7 +1,7 @@
 from functions import calculate_calories_burned
 
 print("Laipni lūgti Kaloriju Patēriņa Kalkulatorā!")
-aktivitate = input("Ievadiet aktivitāti (piem., skriešana, riteņbraukšana, peldēšana): ")
+aktivitate = input("Ievadiet aktivitāti (piem., swimming, cycling, running): ")
 ilgums = float(input("Ievadiet aktivitātes ilgumu minūtēs: "))
 svars = float(input("Ievadiet savu svaru kilogramos: "))
 
